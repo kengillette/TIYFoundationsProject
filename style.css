@@ -1,9 +1,11 @@
 .logo {
   width: 75px;
 }
-.header{
-  background-color: red;
-  font-
+.main{
+  background-color: #FF512F;
+}
+.mainImage{
+  width: 500px;
 }
 .headerText{
   color: white;
@@ -25,9 +27,13 @@
   color: #957777;
   font-size: 20px
 }
-/*.blackShoe{
-  background-color: red;
-}*/
-.text{
-  font-size: 32px;
+.recShoe{
+  background-color: #FF512F;
+}
+.recShoeImages{
+  width: 300px;
+}
+.recShoeText{
+  color: white;
+  font-size: 30px
 }
