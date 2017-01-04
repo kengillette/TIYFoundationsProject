@@ -1,3 +1,33 @@
 .logo {
-  width: 50px;
+  width: 75px;
+}
+.header{
+  background-color: red;
+  font-
+}
+.headerText{
+  color: white;
+  font-size: 90px
+}
+.discriptionText{
+  color: white;
+  font-size: 20px
+}
+.priceText{
+  color: white;
+  font-size: 20px
+}
+.detailsHead{
+  color: #503226;
+  font-size: 40px
+}
+.detailsBody{
+  color: #957777;
+  font-size: 20px
+}
+/*.blackShoe{
+  background-color: red;
+}*/
+.text{
+  font-size: 32px;
 }
