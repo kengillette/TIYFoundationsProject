@@ -1,46 +1,115 @@
 .logo {
   width: 75px;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: #FF512F;
+    text-align: center;
+    padding: 8px 4px;
+    text-decoration: none;
+}
+
 .main{
   background-color: #FF512F;
-  margin: 25px 10px;
-  padding: 10px;
+  margin: 0;
+  padding: 30px 250px;
+  width: 460px;
 
+}
+.back{
+  color: white;
 }
 .mainImage{
   width: 500px;
 }
 .headerText{
   color: white;
-  font-size: 90px
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+}
+.subText{
+  color: #B1351E;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 5px;
+  /*Why is the margin top not working?*/
 }
 .discriptionText{
   color: white;
-  font-size: 20px
+  font-size: 20px;
+  /*border-style: dashed;*/
+  border-top: 2px dashed;
+  border-bottom: 2px dashed;
+  border-color: #B1351E;
+  padding: 30px 0;
 }
-.buybutton{
-  /*need to add details*/
-}
+
 .priceText{
   color: white;
-  font-size: 20px
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px
 }
+
+.buyButton{
+  background-color: white;
+  border: none;
+  color: #FF512F;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.buyBlock{
+  display: inline;
+  /*Why does this not dispaly the price and buy button side by side?*/
+}
+.productInfo{
+  margin: 0;
+  padding: 30px 250px;
+}
+
 .detailsHead{
   color: #503226;
-  font-size: 40px
+  font-size: 30px
 }
 .detailsBody{
   color: #957777;
-  font-size: 20px
+  font-size: 15px
 }
 .recShoe{
   background-color: #FF512F;
   display: inline-block;
+}
+.shoe2{
+  float: left;
+  margin: 10px
+}
+.shoe3{
+  float: left;
+  margin: 10px
+}
+.shoe4{
+  float: left;
+  margin: 10px
 }
 .recShoeImages{
   width: 300px;
 }
 .recShoeText{
   color: white;
-  font-size: 30px
+  font-size: 30px;
+  margin: 1px
+
 }
