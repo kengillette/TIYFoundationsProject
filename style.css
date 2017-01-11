@@ -44,14 +44,12 @@ li a {
   background-color: #FF512F;
   /*padding: 30px 250px;*/
   width: 850px;
-
 }
+
 .leftMain{
-display: inline-block;
 border-color: green;
 }
 .rightMain{
-  display: inline-block;
   border-color: green;
 }
 .back{
