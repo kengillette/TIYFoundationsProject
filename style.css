@@ -1,17 +1,26 @@
 header  {
-  margin-bottom: 15px;
+  /*margin-bottom: 0;*/
   width: 850px;
+  margin-bottom: 7px;
 }
 header div {
   display: inline-block;
 }
 
 .logo{
-  width: 50px;
+  width: 35px;
   /*display: inline-block;*/
+}
+.cart{
+  width: 16px;
+  padding-right: 3px;
 }
 .right{
   float: right;
+  font-size: 13px;
+}
+.left{
+  font-size: 13px;
 }
 ul {
     list-style-type: none;
@@ -22,32 +31,42 @@ ul {
 }
 li {
     float: left;
+    padding: 0 10px;
 }
 li a {
     /*display: block;*/
     color: #FF512F;
     text-align: center;
-    padding: 8px 4px;
     text-decoration: none;
 }
 
 .main{
   background-color: #FF512F;
-  margin: 0;
   /*padding: 30px 250px;*/
   width: 850px;
-  clear: both;
 
+}
+.leftMain{
+display: inline-block;
+border-color: green;
+}
+.rightMain{
+  display: inline-block;
+  border-color: green;
 }
 .back{
   color: white;
+  margin-left: 140px;
+  margin-top: 300px;
 }
 .mainImage{
-  width: 400px;
+  width: 280px;
+  margin-left: 140px;
+  margin-top: 40px;
 }
 .headerText{
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   font-family: 'Raleway', sans-serif;
 }
 .subText{
