@@ -1,17 +1,30 @@
-.logo {
-  width: 75px;
+header  {
+  margin-bottom: 15px;
+  width: 850px;
+}
+header div {
+  display: inline-block;
+}
+
+.logo{
+  width: 50px;
+  /*display: inline-block;*/
+}
+.right{
+  float: right;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    display: inline-block;
 }
 li {
     float: left;
 }
 li a {
-    display: block;
+    /*display: block;*/
     color: #FF512F;
     text-align: center;
     padding: 8px 4px;
@@ -21,15 +34,16 @@ li a {
 .main{
   background-color: #FF512F;
   margin: 0;
-  padding: 30px 250px;
-  width: 460px;
+  /*padding: 30px 250px;*/
+  width: 850px;
+  clear: both;
 
 }
 .back{
   color: white;
 }
 .mainImage{
-  width: 500px;
+  width: 400px;
 }
 .headerText{
   color: white;
@@ -55,7 +69,8 @@ li a {
 .priceText{
   color: white;
   font-family: 'Raleway', sans-serif;
-  font-size: 30px
+  font-size: 30px;
+  display: inline;
 }
 
 .buyButton{
@@ -65,16 +80,15 @@ li a {
   padding: 15px 30px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: inline;
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   border-radius: 5px;
 }
-.buyBlock{
-  display: inline;
+/*.buyBlock{
+  display: inline;*/
   /*Why does this not dispaly the price and buy button side by side?*/
-}
 .productInfo{
   margin: 0;
   padding: 30px 250px;
