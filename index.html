@@ -25,7 +25,7 @@
         <ul>
           <li><a href="link.com">Help</a></li>
           <li><a href="link.com">My Account</a></li>
-          <li><img class="cart" src="images/cart.jpg"><a href="link.com">Shopping Cart</a></li>
+          <li><img class="cart" src="images/cart.jpg"><a href="link.com">Shopping Cart</a><span> (</span><span id="cart">0</span><span>)</span></li>
         </ul>
     </div>
 
@@ -50,28 +50,21 @@
     <div class="rightMain">
 
       <div class="mainProductText">
-        <div>
-          <a class="headerText"> Quick Sneakers
+        <div class="headerText"> Quick Sneakers
+        </div>
+        <div class="subText"> SPRING/SUMMER 2017
+        </div>
+        <div class="discriptionText"> These are the best sneakers in the world! Guaranteed to make you run faster, jump higher, look better, feel better, smell better, and FLY!
+          <a class = "readReview" href="http://www.readreviews.com"> Read The Reviews
           </a>
         </div>
-        <div>
-          <a class="subText"> SPRING/SUMMER 2017
-          </a>
+        <div class="priceText"> $120.00
         </div>
+        <!-- <div class="test"> This is a test
+        </div> -->
         <div>
-          <p class="discriptionText"> These are the best sneakers in the world! Guaranteed to make you run faster, jump higher, look better, feel better, smell better, and FLY!
-          </p>
+          <button class="buyButton" id="buyButton" data-text-swap="Added To Cart">Buy Now!</button>
         </div>
-          <!-- <div class= "buyBlock"> -->
-        <div>
-          <a class="priceText"> $120.00
-          </a>
-        </div>
-        <div>
-          <a href="http://www.buynow.com"<button class="buyButton">Buy Now!</button>
-          </a>
-        </div>
-          <!-- </div> -->
         </div>
       </div>
     </div>
@@ -141,5 +134,7 @@
             </a> &nbsp| Copyright.....
           </p>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>

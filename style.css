@@ -1,12 +1,11 @@
 header  {
   /*margin-bottom: 0;*/
-  width: 850px;
   margin-bottom: 7px;
 }
 header div {
   display: inline-block;
 }
-
+button:focus {outline:0;}
 .logo{
   width: 35px;
   /*display: inline-block;*/
@@ -32,6 +31,7 @@ ul {
 li {
     float: left;
     padding: 0 10px;
+    color: #FF512F;
 }
 li a {
     /*display: block;*/
@@ -41,45 +41,67 @@ li a {
 }
 
 .main{
-  background-color: #FF512F;
-  /*padding: 30px 250px;*/
-  width: 850px;
+    background: #DF1D74; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #DF1D74 , #FF5022); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #DF1D74, #FF5022); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #DF1D74, #FF5022); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #DF1D74 , #FF5022); /* Standard syntax */
+    height: 400px;
 }
 
 .leftMain{
-border-color: green;
+  display: inline-block;
+  /*border-style: solid;
+  border-width: 5px;
+  border-color: green;*/
+  margin-top: 10px;
+  margin-left: 200px;
+  float: left;
 }
 .rightMain{
-  border-color: green;
+  display: inline-block;
+  margin-top: 45px;
+  margin-left: 40px;
+  margin-right: 100px;
+  width: 500px;
+  /*border-style: solid;
+  border-width: 5px;
+  border-color: yellow;*/
 }
 .back{
   color: white;
-  margin-left: 140px;
-  margin-top: 300px;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
 }
 .mainImage{
-  width: 280px;
-  margin-left: 140px;
+  width: 465px;
   margin-top: 40px;
 }
 .headerText{
   color: white;
-  font-size: 30px;
+  font-size: 45px;
   font-family: 'Raleway', sans-serif;
 }
 .subText{
   color: #B1351E;
   font-family: 'Raleway', sans-serif;
-  margin-top: 5px;
-  /*Why is the margin top not working?*/
+
+}
+.readReview{
+  color: #B1351E;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  padding-top: 5px;
 }
 .discriptionText{
   color: white;
   font-size: 20px;
+  font-family: 'Raleway', sans-serif;
   /*border-style: dashed;*/
   border-top: 2px dashed;
   border-bottom: 2px dashed;
   border-color: #B1351E;
+  margin-top: 24px;
   padding: 30px 0;
 }
 
@@ -87,9 +109,16 @@ border-color: green;
   color: white;
   font-family: 'Raleway', sans-serif;
   font-size: 30px;
-  display: inline;
+  display: inline-block;
+  float: left;
+  margin-top: 16px;
 }
-
+/*.test{
+  display: inline-block;
+  border-style: solid;
+  border-width: 5px;
+  border-color: yellow;
+}*/
 .buyButton{
   background-color: white;
   border: none;
@@ -97,12 +126,53 @@ border-color: green;
   padding: 15px 30px;
   text-align: center;
   text-decoration: none;
-  display: inline;
+  /*display: inline;*/
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   border-radius: 5px;
+  display: inline-block;
+  float: left;
+  margin-left: 30px;
+  margin-top: 12px;
 }
+.buyButtonClickedHover{
+  /*use this with .toggleClass to change the style of the button when clicked*/
+  background-color: #F03849;
+  border: 2px solid white;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  /*display: inline;*/
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  display: inline-block;
+  float: left;
+  margin-left: 30px;
+  margin-top: 12px;
+}
+.buyButtonHover{
+  /*use this with .toggleClass to change the style of the button when clicked*/
+  background-color: green;
+  border: none;
+  color: #FF512F;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  /*display: inline;*/
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  display: inline-block;
+  float: left;
+  margin-left: 30px;
+  margin-top: 12px;
+}
+
 /*.buyBlock{
   display: inline;*/
   /*Why does this not dispaly the price and buy button side by side?*/

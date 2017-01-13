@@ -1,0 +1,28 @@
+$("button").click(buttonToggle);
+function buttonToggle() {
+  $("button").toggleClass("buyButtonClickedHover");
+  // $(".my-div").toggle();
+}
+
+$("button").hover(buttonToggle);
+function buttonToggle() {
+  $("button").toggleClass("buyButtonClickedHover");
+}
+$("#buyButton").on("click", function() {
+  var el = $(this);
+  if (el.text() == el.data("text-swap")) {
+    el.text(el.data("text-original"));
+  } else {
+    el.data("text-original", el.text());
+    el.text(el.data("text-swap"));
+  }
+});
+// var val=1;
+$("button").click(addCart);
+function addCart() {
+  $("#cart").html(function(i, val) {return val*1+1});
+}
+// $("button").click(addCart);
+// function addCart() {
+//   $("#cart").after(val);
+// }
