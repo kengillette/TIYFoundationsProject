@@ -8,7 +8,7 @@ $("button").hover(buttonToggle);
 function buttonToggle() {
   $("button").toggleClass("buyButtonClickedHover");
 }
-$("#buyButton").on("click", function() {
+$(".buyButton").on("click", function() {
   var el = $(this);
   if (el.text() == el.data("text-swap")) {
     el.text(el.data("text-original"));
