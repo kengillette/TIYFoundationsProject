@@ -38,7 +38,44 @@ li a {
     color: #FF512F;
     text-align: center;
     text-decoration: none;
+    font-family: 'Raleway', sans-serif;
 }
+.menU:hover ~ hr {
+  margin-left: 0;
+  width: 14%;
+}
+
+.womenU:hover ~ hr {
+  margin-left: 16%;
+  width: 20%;
+}
+
+.boysU:hover ~ hr {
+  margin-left: 39%;
+  width: 12%;
+}
+
+.girlsU:hover ~ hr {
+  margin-left: 56%;
+  width: 13%;
+}
+.customizeU:hover ~ hr {
+  margin-left: 73%;
+  width: 43%;
+}
+hr {
+  height: .25rem;
+  width: 14%;
+  margin: 0;
+  background: tomato;
+  border: none;
+  transition: .3s ease-in-out;
+}
+
+/*.rollOver{
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+}*/
 
 .main{
     background: #DF1D74; /* For browsers that do not support gradients */
@@ -61,7 +98,7 @@ li a {
 .rightMain{
   display: inline-block;
   margin-top: 45px;
-  margin-left: 40px;
+  margin-left: 80px;
   margin-right: 100px;
   width: 500px;
   /*border-style: solid;
@@ -83,12 +120,12 @@ li a {
   font-family: 'Raleway', sans-serif;
 }
 .subText{
-  color: #B1351E;
+  color: #892715;
   font-family: 'Raleway', sans-serif;
 
 }
 .readReview{
-  color: #B1351E;
+  color: #892715;
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   padding-top: 5px;
@@ -189,28 +226,60 @@ li a {
   color: #957777;
   font-size: 15px
 }
+
+.shopShoesBorder{
+  background: #DF1D74; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #DF1D74 , #FF5022); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #DF1D74, #FF5022); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #DF1D74, #FF5022); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #DF1D74 , #FF5022); /* Standard syntax */
+  height: 40px;
+  opacity: 0.3;
+}
+.shopShoes{
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+}
 .recShoe{
-  background-color: #FF512F;
-  display: inline-block;
+  background: #DF1D74; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #DF1D74 , #FF5022); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #DF1D74, #FF5022); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #DF1D74, #FF5022); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #DF1D74 , #FF5022); /* Standard syntax */
+  height: 400px;
 }
 .shoe2{
-  float: left;
-  margin: 10px
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 105px;
+
 }
 .shoe3{
-  float: left;
-  margin: 10px
+  display: inline-block;
+  margin-top: 80px;
+  margin: 10px;
+  margin-left: 105px;
 }
 .shoe4{
-  float: left;
-  margin: 10px
+  display: inline-block;
+  margin-top: 80px;
+  margin: 10px;
+  margin-left: 105px;
 }
 .recShoeImages{
   width: 300px;
 }
 .recShoeText{
   color: white;
-  font-size: 30px;
-  margin: 1px
-
+  font-size: 25px;
+  margin: 1px;
+  display: inline-block;
+}
+.recShoePrice{
+  display: inline-block;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  display: inline-block;
+  margin-left: 30px;
 }

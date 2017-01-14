@@ -17,12 +17,25 @@ $("#buyButton").on("click", function() {
     el.text(el.data("text-swap"));
   }
 });
-// var val=1;
+
+
 $("button").click(addCart);
 function addCart() {
   $("#cart").html(function(i, val) {return val*1+1});
 }
-// $("button").click(addCart);
-// function addCart() {
-//   $("#cart").after(val);
-// }
+
+$("a").hover(textRollOver);
+function textRollOver() {
+  $("#menU").toggleClass("rollOver");
+}
+
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+        $("p").hide();
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+});
